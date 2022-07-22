@@ -45,10 +45,15 @@
   <ItemGroup>
     <Compile Include="AthLargest.cs" />
     <Compile Include="ConnectedRopes.cs" />
+    <Compile Include="GenericMinHeap.cs" />
     <Compile Include="Heap.cs" />
+    <Compile Include="HeapWithIndexMapping.cs" />
     <Compile Include="KPlacesApart.cs" />
+    <Compile Include="KSortedListMerged.cs" />
     <Compile Include="MagicianChocolates.cs" />
     <Compile Include="MaximumSumAfterBNegations.cs" />
+    <Compile Include="MinimimumLargestElement.cs" />
+    <Compile Include="MInimumLargestElement.cs" />
     <Compile Include="PrefixMedian.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
