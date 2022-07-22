@@ -6,25 +6,25 @@ using System.Threading.Tasks;
 
 namespace Heaps
 {
-   public class ListNode:IComparable
-    {
-     public int val;
-     public ListNode next;
-     public ListNode(int x) { val = x; next = null; }
-        public int CompareTo(object obj)
-        {
+   //public class ListNode:IComparable
+   // {
+   //  public int val;
+   //  public ListNode next;
+   //  public ListNode(int x) { val = x; next = null; }
+   //     public int CompareTo(object obj)
+   //     {
             
-                ListNode node = (ListNode)obj;
-                return val.CompareTo(node.val);
+   //             ListNode node = (ListNode)obj;
+   //             return val.CompareTo(node.val);
             
-        }
-    }
+   //     }
+   // }
     public class KSortedListMerged
     {
         public ListNode mergeKLists(List<ListNode> A)
         {
             List<ListNode> result = new List<ListNode>();
-            GenericMinHeap<ListNode> minHeap = new GenericMinHeap<ListNode>();
+            HeapWithListNode minHeap = new HeapWithListNode();
             foreach(var node in A)
             {
                 minHeap.InsertToMinHeap(node);

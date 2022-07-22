@@ -48,6 +48,7 @@
     <Compile Include="GenericMinHeap.cs" />
     <Compile Include="Heap.cs" />
     <Compile Include="HeapWithIndexMapping.cs" />
+    <Compile Include="HeapWithListNode.cs" />
     <Compile Include="KPlacesApart.cs" />
     <Compile Include="KSortedListMerged.cs" />
     <Compile Include="MagicianChocolates.cs" />
