@@ -55,7 +55,6 @@
     <Compile Include="MagicianChocolates.cs" />
     <Compile Include="MaximumSumAfterBNegations.cs" />
     <Compile Include="MinimimumLargestElement.cs" />
-    <Compile Include="MInimumLargestElement.cs" />
     <Compile Include="PrefixMedian.cs" />
     <Compile Include="ProductofThree.cs" />
     <Compile Include="Program.cs" />
