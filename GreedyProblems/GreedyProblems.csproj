@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="FindMaximumJobs.cs" />
     <Compile Include="FreeCars.cs" />
+    <Compile Include="MiceToHolesProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

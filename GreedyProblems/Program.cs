@@ -10,8 +10,8 @@ namespace GreedyProblems
     {
         static void Main(string[] args)
         {
-            FindMaximumJobs freeCars = new FindMaximumJobs();
-            freeCars.Solve(new List<int>() { 3, 2, 6 }, new List<int>() { 9, 8, 9 });
+            MiceToHolesProblem freeCars = new MiceToHolesProblem();
+           Console.Write( freeCars.Solve(new List<int>() { -4, 2, 3 }, new List<int>() { 0, -2, 4 }));
             Console.ReadLine();
         }
     }
