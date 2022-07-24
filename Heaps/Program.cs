@@ -58,34 +58,42 @@ namespace Heaps
             //  RunningMedian obj = new RunningMedian();
             //var result=  obj.solve(new List<int>() { 5, 17, 100, 11 });
 
-            ListNode root1 = new ListNode(1);
-            ListNode node1 = new ListNode(10);
-            ListNode node2 = new ListNode(20);
-            root1.next = node1;
-            node1.next = node2;
+            // ListNode root1 = new ListNode(1);
+            // ListNode node1 = new ListNode(10);
+            // ListNode node2 = new ListNode(20);
+            // root1.next = node1;
+            // node1.next = node2;
 
-            ListNode root2 = new ListNode(4);
-            ListNode node3 = new ListNode(11);
-            ListNode node4 = new ListNode(13);
-            root2.next = node3;
-            node3.next = node4;
+            // ListNode root2 = new ListNode(4);
+            // ListNode node3 = new ListNode(11);
+            // ListNode node4 = new ListNode(13);
+            // root2.next = node3;
+            // node3.next = node4;
 
-            ListNode root3 = new ListNode(8);
-            ListNode node5 = new ListNode(16);
-            ListNode node6 = new ListNode(32);
+            // ListNode root3 = new ListNode(8);
+            // ListNode node5 = new ListNode(16);
+            // ListNode node6 = new ListNode(32);
 
-            root3.next = node5;
-            node5.next = node6;
+            // root3.next = node5;
+            // node5.next = node6;
 
-            KSortedListMerged kSortedListMerged = new KSortedListMerged();
-           var result= kSortedListMerged.mergeKLists(new List<ListNode>() { root1, root2, root3 });
+            // KSortedListMerged kSortedListMerged = new KSortedListMerged();
+            //var result= kSortedListMerged.mergeKLists(new List<ListNode>() { root1, root2, root3 });
 
-           while(result.next!=null)
-            {
-                Console.WriteLine(result.val);
-                result=result.next;
-            }
-            Console.WriteLine(result.val);
+            //while(result.next!=null)
+            // {
+            //     Console.WriteLine(result.val);
+            //     result=result.next;
+            // }
+            // Console.WriteLine(result.val);
+
+            // ProductofThree productofThree= new ProductofThree();
+            //var result= productofThree.solve(new List<int>() { 1, 2, 3, 4, 5 });
+
+            //SpecialMedian specialMedian = new SpecialMedian();
+            //var result=specialMedian.solve(new List<int>(new List<int>() { 4, 6, 8, 4 }));
+            MinimimumLargestElement element = new MinimimumLargestElement();
+            Console.WriteLine(element.Solve(new List<int>() { 1, 2, 3, 4 }, 3));
 
             Console.ReadLine();
 

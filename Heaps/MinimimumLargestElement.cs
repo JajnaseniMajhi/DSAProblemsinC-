@@ -19,11 +19,11 @@ namespace Heaps
                 return 0;
             }
             //Create min heap
-            HeapWithIndexMapping heapWithIndexMapping = new HeapWithIndexMapping();
+            HeapNodeHeap heapNodeHeap = new HeapNodeHeap();
             int maxValue = int.MinValue;
             for (int i = 0; i < A.Count; i++)
             {
-                heapWithIndexMapping.InsertToMinHeap(i, 2* A[i],A);
+                heapNodeHeap.InsertToMinHeap(new HeapNode(A[i]));
                 maxValue = Math.Max(maxValue, A[i]);
             }
 
@@ -31,20 +31,15 @@ namespace Heaps
 
             //Get minimum with index
 
-            while (B>1)
+            for(int i=0;i<B;i++)
             {
-                var minElement = heapWithIndexMapping.GetMinimunFromHeap();
-                int index = minElement.Key;
-                curr[index] += A[index];
-                maxValue = Math.Max(curr[index], maxValue);
-                heapWithIndexMapping.InsertToMinHeap(minElement.Key, curr[index],A);
-                B = B - 1;
+                HeapNode curNode = heapNodeHeap.PopMin();
+                maxValue = Math.Max(curNode.updateData(), maxValue);
+                heapNodeHeap.InsertToMinHeap(curNode);
             }
-            int ans = int.MinValue;
-            for (int i = 0; i < curr.Count; i++) ans = Math.Max(ans, curr[i]);
-
-            return ans;
-        }
+            return maxValue;
+        
     }
 }
 
+}
