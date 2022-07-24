@@ -9,20 +9,20 @@ namespace Heaps
     public class HeapNode
     {
         int data;
-        int incrementBy;
+        int original;
         public HeapNode(int val)
         {
             this.data = val;
-            this.incrementBy = val;
+            this.original = val;
         }
         public int updateData()
         {
-            this.data += this.incrementBy;
+            this.data += this.original;
             return this.data;
         }
         public int getCurrentVal()
         {
-            return this.data + this.incrementBy;
+            return this.data + this.original;
         }
     }
     public class HeapNodeHeap
