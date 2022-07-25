@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E3A69C6E-0681-42B3-8C1E-7C4FC8F17FB9}</ProjectGuid>
+    <ProjectGuid>{E47FD502-9DAC-40F3-8AC4-72CC8026F687}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Stack</RootNamespace>
-    <AssemblyName>Stack</AssemblyName>
+    <RootNamespace>ArraysRevision</RootNamespace>
+    <AssemblyName>ArraysRevision</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BalancedParanthesisProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortaStack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

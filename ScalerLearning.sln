@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreedyProblems", "GreedyPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{E3A69C6E-0681-42B3-8C1E-7C4FC8F17FB9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArraysRevision", "ArraysRevision", "{0EEF3004-CEBC-47A6-A89D-268AC8529A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysRevision", "ArraysRevision\ArraysRevision.csproj", "{E47FD502-9DAC-40F3-8AC4-72CC8026F687}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,12 +35,17 @@ Global
 		{E3A69C6E-0681-42B3-8C1E-7C4FC8F17FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3A69C6E-0681-42B3-8C1E-7C4FC8F17FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3A69C6E-0681-42B3-8C1E-7C4FC8F17FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47FD502-9DAC-40F3-8AC4-72CC8026F687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47FD502-9DAC-40F3-8AC4-72CC8026F687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47FD502-9DAC-40F3-8AC4-72CC8026F687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47FD502-9DAC-40F3-8AC4-72CC8026F687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{83330281-D1D7-423E-A59E-C030B6F85F72} = {D971B6EF-9AC5-4EB6-9C59-FD0C65FC0A76}
+		{E47FD502-9DAC-40F3-8AC4-72CC8026F687} = {0EEF3004-CEBC-47A6-A89D-268AC8529A25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B112CFF-0D45-4216-A02F-A186BB6DB431}
