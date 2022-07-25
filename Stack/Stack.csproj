@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{83330281-D1D7-423E-A59E-C030B6F85F72}</ProjectGuid>
+    <ProjectGuid>{E3A69C6E-0681-42B3-8C1E-7C4FC8F17FB9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GreedyProblems</RootNamespace>
-    <AssemblyName>GreedyProblems</AssemblyName>
+    <RootNamespace>Stack</RootNamespace>
+    <AssemblyName>Stack</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,22 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DistributeCandies.cs" />
-    <Compile Include="FindMaximumJobs.cs" />
-    <Compile Include="FreeCars.cs" />
-    <Compile Include="MiceToHolesProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShipProblem.cs" />
+    <Compile Include="SortaStack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Heaps\Heaps.csproj">
-      <Project>{6359274D-4207-4676-8664-ED2A0F28FA50}</Project>
-      <Name>Heaps</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
