@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GreedyProblems;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,12 @@ namespace Stack
         {
             //SortaStack sortaStack = new SortaStack();
             //Console.WriteLine(sortaStack.Solve(new List<int> { 5, 12, 1, 23 }));
-            BalancedParanthesisProblem balancedParanthesisProblem = new BalancedParanthesisProblem();
-            Console.Write(balancedParanthesisProblem.Solve("({[(())]})"));
+            //BalancedParanthesisProblem balancedParanthesisProblem = new BalancedParanthesisProblem();
+            //Console.Write(balancedParanthesisProblem.Solve("({[(())]})"));
+            //DoubleCharTrouble doubleCharTrouble = new DoubleCharTrouble();
+            //Console.WriteLine(doubleCharTrouble.Solve("AAbCb"));
+            Seats seats = new Seats();
+            seats.Solve("....x..xx...x..");
             Console.ReadLine();
         }
     }
