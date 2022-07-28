@@ -17,8 +17,8 @@ namespace Stack
             //Console.Write(balancedParanthesisProblem.Solve("({[(())]})"));
             //DoubleCharTrouble doubleCharTrouble = new DoubleCharTrouble();
             //Console.WriteLine(doubleCharTrouble.Solve("AAbCb"));
-            Seats seats = new Seats();
-            seats.Solve("....x..xx...x..");
+           EvaluateExpression evaluateExpression = new EvaluateExpression();
+            Console.Write(evaluateExpression.evalRPN(new List<string>() { "2", "1", "+", "3", "*" }));
             Console.ReadLine();
         }
     }
