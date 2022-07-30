@@ -21,6 +21,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackTracking", "BackTrackin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackTracking", "BackTracking\BackTracking.csproj", "{7723730F-4BD3-4382-85E6-31361ACBA30B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{B23ECC50-7501-4637-A75B-5ABDC14BF809}"
+	ProjectSection(SolutionItems) = preProject
+		BackTracking\Sixlets.cs = BackTracking\Sixlets.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionRevision", "RecursionRevision\RecursionRevision.csproj", "{037207D7-D0F5-4C34-B7E6-C800E442D0EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +54,10 @@ Global
 		{7723730F-4BD3-4382-85E6-31361ACBA30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7723730F-4BD3-4382-85E6-31361ACBA30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7723730F-4BD3-4382-85E6-31361ACBA30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037207D7-D0F5-4C34-B7E6-C800E442D0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037207D7-D0F5-4C34-B7E6-C800E442D0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037207D7-D0F5-4C34-B7E6-C800E442D0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037207D7-D0F5-4C34-B7E6-C800E442D0EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +66,7 @@ Global
 		{83330281-D1D7-423E-A59E-C030B6F85F72} = {D971B6EF-9AC5-4EB6-9C59-FD0C65FC0A76}
 		{E47FD502-9DAC-40F3-8AC4-72CC8026F687} = {0EEF3004-CEBC-47A6-A89D-268AC8529A25}
 		{7723730F-4BD3-4382-85E6-31361ACBA30B} = {B846CB69-4796-417F-A51B-17231B41F45D}
+		{037207D7-D0F5-4C34-B7E6-C800E442D0EB} = {B23ECC50-7501-4637-A75B-5ABDC14BF809}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B112CFF-0D45-4216-A02F-A186BB6DB431}

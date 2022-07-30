@@ -12,6 +12,8 @@ namespace BackTracking
         {
             Sixlets obj = new Sixlets();
             Console.WriteLine(obj.Solve(new List<int>() { 1, 2, 8 }, 2));
+            //AllCombinations allCombinations = new AllCombinations();
+            //allCombinations.permute(new List<int>() { 1, 2, 3, 4 });
             Console.ReadLine();
         }
     }
