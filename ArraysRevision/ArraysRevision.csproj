@@ -48,6 +48,13 @@
     <Compile Include="PickFromBothSides.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="SubsetSequence.cs" />
+    <Compile Include="TwoDimensionalArray\SubMatrixSumQueries.cs" />
+    <Compile Include="TwoDimensionalArray\SumOfAllSubMatrix.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
