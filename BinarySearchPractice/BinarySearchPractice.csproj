@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E47FD502-9DAC-40F3-8AC4-72CC8026F687}</ProjectGuid>
+    <ProjectGuid>{E27CF76C-E49E-4F00-B09C-20499C67E5DC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ArraysRevision</RootNamespace>
-    <AssemblyName>ArraysRevision</AssemblyName>
+    <RootNamespace>BinarySearchPractice</RootNamespace>
+    <AssemblyName>BinarySearchPractice</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,22 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BeggerTemple.cs" />
-    <Compile Include="MaximumSumSubArray.cs" />
-    <Compile Include="PickFromBothSides.cs" />
+    <Compile Include="FindTargetElement.cs" />
+    <Compile Include="InsertSortedElement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sorting\BubbleSort.cs" />
-    <Compile Include="Sorting\FindPairSum.cs" />
-    <Compile Include="Sorting\InsertionSort.cs" />
-    <Compile Include="Sorting\MakeCompleteArraySorted.cs" />
-    <Compile Include="Sorting\MergeSort.cs" />
-    <Compile Include="Sorting\QuickSort.cs" />
-    <Compile Include="Sorting\SelectionSort.cs" />
-    <Compile Include="Sorting\SumDifference.cs" />
-    <Compile Include="SubsetSequence.cs" />
-    <Compile Include="TwoDimensionalArray\SubMatrixSumQueries.cs" />
-    <Compile Include="TwoDimensionalArray\SumOfAllSubMatrix.cs" />
+    <Compile Include="SearchBiotonicArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

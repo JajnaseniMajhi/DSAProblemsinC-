@@ -8,6 +8,7 @@ namespace ArraysRevision.Sorting
 {
     public class SelectionSort
     {
+        //Find minimum-- 1st min, 2nd MIn.....
         public void DoSelectionSort(List<int> A)
         {
 

@@ -31,13 +31,23 @@ namespace ArraysRevision
             //var result = subMatrixSumQueries.solve(input, new List<int>() { 1, 2 }, new List<int>() { 1, 2 }, new List<int>() { 2, 3 }, new List<int>() { 2, 3 });
             //SelectionSort selectionSort = new SelectionSort();
             //selectionSort.DoSelectionSort(new List<int>() { 10, 9, 5, -4, 8,0 });
-            
+
             //BubbleSort bubbleSort = new BubbleSort();
             //bubbleSort.DoBubbleSort(new List<int>() { 10, 9, 5, -4, 8, 0 });
             //InsertionSort insertionSort = new InsertionSort();
             //insertionSort.DoInsertionSort(new List<int>() { 10, 9, 5, -4, 8, 0 });
-            QuickSort quickSort = new QuickSort();
-            quickSort.DoQuickSortPivotFirstElement(new List<int>() { 10, 9, 5, -4, 8, 0 });
+            //QuickSort quickSort = new QuickSort();
+            //quickSort.DoQuickSortPivotFirstElement(new List<int>() { 10, 9, 5, -4, 8, 0 });
+            //MergeSort mergeSort = new MergeSort();
+            //mergeSort.DoMergeSort(new List<int>() { 10, 9, 5, -4, 8, 0 });
+            //SumDifference sumDifference = new SumDifference();
+            //Console.WriteLine(sumDifference.FindMaxMinDiffSUbSequence(new List<int>() { 1,2}));
+            //MakeCompleteArraySorted makeCompleteArraySorted = new MakeCompleteArraySorted();
+           //
+           //var result = makeCompleteArraySorted.FindUnSortSubArray(new List<int>() { 1, 3, 2, 4, 5 });
+           FindPairSum findPairSum = new FindPairSum();
+            var result = findPairSum.FindPairs(new List<int>() { 1, 1, 1 }, 2);
+            Console.WriteLine(result);
             Console.WriteLine();
 
             Console.ReadLine();
