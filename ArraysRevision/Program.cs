@@ -43,10 +43,12 @@ namespace ArraysRevision
             //SumDifference sumDifference = new SumDifference();
             //Console.WriteLine(sumDifference.FindMaxMinDiffSUbSequence(new List<int>() { 1,2}));
             //MakeCompleteArraySorted makeCompleteArraySorted = new MakeCompleteArraySorted();
-           //
-           //var result = makeCompleteArraySorted.FindUnSortSubArray(new List<int>() { 1, 3, 2, 4, 5 });
-           FindPairSum findPairSum = new FindPairSum();
-            var result = findPairSum.FindPairs(new List<int>() { 1, 1, 1 }, 2);
+            //
+            //var result = makeCompleteArraySorted.FindUnSortSubArray(new List<int>() { 1, 3, 2, 4, 5 });
+            //FindPairSum findPairSum = new FindPairSum();
+            // var result = findPairSum.FindPairs(new List<int>() { 1, 1, 1 }, 2);
+            AddOneToNumber addOneToNumber = new AddOneToNumber();
+            var result = addOneToNumber.AddOne(new List<int>() {0,0,0, 3, 9, 9, 9 });
             Console.WriteLine(result);
             Console.WriteLine();
 

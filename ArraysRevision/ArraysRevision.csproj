@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddOneToNumber.cs" />
     <Compile Include="BeggerTemple.cs" />
     <Compile Include="MaximumSumSubArray.cs" />
+    <Compile Include="MaxNonNegativeSubArray.cs" />
     <Compile Include="PickFromBothSides.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
