@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BufgetProblem.cs" />
     <Compile Include="FindMedian.cs" />
     <Compile Include="FindPeakElement.cs" />
     <Compile Include="FindTargetElement.cs" />

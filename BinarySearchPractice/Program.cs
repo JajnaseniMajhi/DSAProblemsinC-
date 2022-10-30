@@ -20,8 +20,10 @@ namespace BinarySearchPractice
             //int result= searchBiotonicArray.solve(input, 0);
             //FoodDistribution foodDistribution = new FoodDistribution();
             //int result = foodDistribution.Solve(new List<int>() { 10000, 20000, 30000 }, 6);
-            FindPeakElement findPeakElement = new FindPeakElement();
-           int result= findPeakElement.FindPeakElemnt(new List<int>() { 1, 2, 3, 4, 5 });
+            // FindPeakElement findPeakElement = new FindPeakElement();
+            //int result= findPeakElement.FindPeakElemnt(new List<int>() { 1, 2, 3, 4, 5 });
+            BufgetProblem bufgetProblem = new BufgetProblem();
+            var result = bufgetProblem.FindGrantsCap(new double[] { 2, 4 }, 3);
             Console.WriteLine(result);
             Console.ReadLine();
 
