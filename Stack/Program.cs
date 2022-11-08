@@ -39,10 +39,10 @@ namespace StackPractice
             }
         }
 
-        public static int UseBinarySearch(int[] A, int X, int Y)
+        public static int UseBinarySearch(List<int> A, int X, int Y)
         {
             int l = 0;
-            int r = A.Length - 1;
+            int r = A.Count - 1;
             while(l<=r)
             {
                 int mid = (l + r) / 2;
@@ -105,28 +105,7 @@ namespace StackPractice
         }
         static void Main(string[] args)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
-            for(int i=0; i<n;i++)
-            {
-                var temp = Console.ReadLine().Trim();
-                string[] s = temp.Split();
-                int[] inputArray = new int[3];
-                for (int j = 0; j < n; j++)
-                {
-                    inputArray[i] = Convert.ToInt32(s[i]);
-                }
-                for (int k=0; k < inputArray[0];k++)
-                {
-                    var Q = Console.ReadLine().Trim();
-                    string[] s = Q.Split();
-                    int[] QA = new int[3];
-                    int X= 
-                }
-            }
             
-            var num = SubsetNumber(inputArray, n);
-            Console.WriteLine(num);
-            Console.ReadLine();
         }
     }
 }
